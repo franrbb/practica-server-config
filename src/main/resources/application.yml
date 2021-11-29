@@ -3,7 +3,8 @@ server:
   
 spring:  cloud:    config:
       server:
-        git:
+        git: 
+          uri: https://github.com/franrbb/bootcamp-configServer
           default-label: main
           search-paths:
           - '*service'
